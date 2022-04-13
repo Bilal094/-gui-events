@@ -29,8 +29,8 @@ def time():
     if time20 == 0:
         gameEnd = messagebox.askyesno('Game ended', f'You scored {score} points. Do you want to play again?')
         if gameEnd == True:
-            time20 = 21
             score = 0
+            time20 = 20
         else:
             root.destroy()
     time20 -= 1
